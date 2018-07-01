@@ -26,7 +26,7 @@ button {
 
 .users-list {
   margin-top: 20px;
-  padding: 50px;
+  padding: 100px 50px 50px 50px;
   background-color: #D8D8D8;
   list-style-type: none;
 }
