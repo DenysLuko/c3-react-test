@@ -14,7 +14,7 @@ describe("PearsonUsers", () => {
       expect(header.text()).toEqual("Pearson User Management");
     });
 
-    it("renders a all users", (done) => {
+    it("renders all users", (done) => {
       setImmediate(() => {
         component.update();
         const users = component.find(".users-list-item");
@@ -24,7 +24,7 @@ describe("PearsonUsers", () => {
     });
   });
 
-  describe("deleteUser", () => {
+  describe("#deleteUser", () => {
     let component;
 
     beforeEach(() => {
@@ -57,7 +57,7 @@ describe("PearsonUsers", () => {
     });
   });
 
-  describe("dedupeUsers", () => {
+  describe("#dedupeUsers", () => {
     let component;
 
     beforeEach(() => {

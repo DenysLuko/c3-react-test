@@ -57,7 +57,7 @@ export class PearsonUsers extends Component {
           users: json.data
         });
       })
-      .catch(console.warn)
+      .catch(console.warn);
   }
 
   componentWillUnmount = () => {
